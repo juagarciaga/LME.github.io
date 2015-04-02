@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LME</title>
+<script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="coin-slider.min.js"></script>
+<link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
+<style type="text/css">
+
+*{	margin:0px;
+	padding:0px;
+}
+
+#conteudo {
+	width:1000px;
+	height: 810px;
+	background-color:#FFF;
+	margin-top:20px;
+	box-shadow: #CCC 1px 1px 1px 1px;
+	padding-bottom:0px;
+}
+
+#header {
+	width:970px;
+	height:155px;
+	background-image:url(Imagens/header.png);
+	background-repeat: no-repeat;
+}
+
+#menu ul {
+	width:970px;
+	height:27px;
+	font:90% Tahoma;
+	background-image:url(Imagens/menu_f.png);
+	background-repeat:no-repeat;
+	list-style:none;
+	padding:10px;
+}
+
+#menu ul li {
+	display:inline;
+}
+
+#menu ul li a {
+	background-image:url(Imagens/menu_f.png);
+	background-repeat:no-repeat;
+	color:#FFF;
+	text-decoration:none;
+	padding: 0px 28px 0px;
+}
+
+#menu ul li a:hover {
+	background-image:url(Imagens/menu_f.png);
+	background-repeat:no-repeat;
+	color: #CCC;
+	text-decoration:none;
+	padding: 0px 28px 0px;
+}
+
+#Submenu {
+	width:828px;
+	height:190px;
+	margin:30px 105px;
+}
+
+#Submenu ul {
+	font:95% Tahoma;
+	display:inline;
+	text-decoration:none;
+	list-style:none;
+	float:left;
+}
+
+
+
+#final {
+	width:970px;
+	height:65px;
+	background-image:url(Imagens/final.png);
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:0px;
+}
+
+
+</style>
+
+</head>
+
+<body style="background-image:url(Imagens/background.png); background-repeat: repeat-x; font:Tahoma;"><center>
+
+<div id="conteudo"><center>
+
+	<div id="header">
+    
+    </div>
+    
+   <div id="menu"> 
+<ul>
+ 			<li><a href="Index.html">Home</a></li>
+			<li><a href="Sobre.html">Sobre</a></li>
+			<li><a href="Temas.html">Temas de Pesquisa</a></li>
+   			<li><a href="Equipe.html">Equipe</a></li>
+			<li><a href="Infra.html">Infraestrutura</a></li>
+			<li><a href="Parceiros.html">Parceiros</a></li>
+			<li><a href="Contato.html">Contato</a></li>
+            <img src="Imagens/En.png" width="24" height="14" /> 
+            <img src="Imagens/Sp.png" width="25" height="14" />
+		</ul>
+	</div>
+
+<div id='coin-slider' style=" margin-top:35px;">
+	<a href="http://www.dbmc2014.org/" target="_blank">
+		<img src='imagen1.jpg' >
+		<span>
+			<b> International Conference on Durability of Buildings Materials and Components</b><br />
+            02 - 05 September 2014, S&atilde;o Paulo Brasil, Escola Polit&eacute;cnica, University of S&atilde;o Paulo
+            S&atilde;o Paulo State Housing Syndicate
+		</span>
+	</a>
+    
+    	<a href="http://www.holcimfoundation.org/T1682/Student_Poster_Competition.html" target="_blank">
+		<img src='imagen2.jpg' >
+		<span>
+			<b> Pr&ecirc;mio internacional para doutorando do PPGEC</b><br />
+		Bruno Damineli, doutorando do PPGEC USP, orientado do Prof. Rafael Pileggi e do prof. Vanderley Moacyr John, ganhou men&ccedil;&atilde;o honrosa no 4th International Holcim Forum for Sustainable Construction em Mumbai.
+		</span>
+	</a>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({width:794, height:227, navigation: true, delay:5000});
+	});
+</script>
+
+<div id="Submenu" align="center"><center>
+	<ul style="color:#000; padding:10px 15px; width:274px; height:200px; background-image: url(Imagens/submenu.jpg); background-repeat:no-repeat; text-align:left;">
+    <p><b><a href="Noticias.html" style=" text-decoration:none; color:#36A6A2;">Noticias</a></b></p><br />
+    <li style="text-decoration:none; list-style:none; width:245px; height:47px;"> International Conference on Durability of Buildings Materials and Components <a href="http://www.dbmc2014.org/" target="_blank">...Leia mais</a></li><br />
+    <li style="text-decoration:none; list-style:none; width:245px; height:47px;">  Pr&ecirc;mio internacional para doutorando do PPGEC <a href="http://www.holcimfoundation.org/T1682/Student_Poster_Competition.html" target="_blank">...Leia mais</a></li>
+    </ul>
+    
+
+    <ul style="color:#000; padding:10px 15px; width:493px; height:188px; background-image: url(Imagens/submenu1.jpg); background-repeat:no-repeat; text-align:left;">
+    <p><b><a href="Publicacoes.html" style=" text-decoration:none; color:#D97218;">Publica&ccedil;&otilde;es</a></b></p><br />
+    <li style="text-decoration:none; list-style:none; width:470px; height:47px;"> Production of recycled sand from construction and demolition waste Construction & Building Materials<a href="http://dx.doi.org/10.1016/j.conbuildmat.2012.02.004">...Leia Mais</a></li><br />
+	<li style="text-decoration:none; list-style:none; width:470px; height:47px;"> Modelagem simplificada para estimativa do potencial de penetra&ccedil;&atilde;o de part&iacute;culas em substratos porosos. Ambiente Constru&iacute;do<a href="http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1678-86212013000100003&lng=pt&nrm=iso&tlng=en">...Leia Mais</a></li>
+
+
+
+    </ul>
+
+</center></div>
+
+<div id="final"></div>
+ 
+</center></div>
+</center></body>
+</html>
